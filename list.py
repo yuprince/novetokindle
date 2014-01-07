@@ -19,7 +19,7 @@ if __name__ == '__main__':
 def has_class_dccss_but_not_other_herf(tag):
 	return tag.has_attr('class') and not tag.has_attr('id') 
  
-content = urllib2.urlopen('file:///Users/AO/Desktop/index.html').read()
+content = urllib2.urlopen('http://www.ranwen.net/files/article/18/18795/index.html').read()
 
 
  

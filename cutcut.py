@@ -14,7 +14,7 @@ class Log(object):
 if __name__ == '__main__': 
  log = Log('listcut.txt', 'w+')
 
-f =file('list.txt','r')
+f =file('list.html','r')
 
 
 relink = ' href="(.*)"'
